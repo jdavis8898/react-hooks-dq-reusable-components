@@ -8,7 +8,7 @@ function Shop({ potions, addToInventory }) {
       // <ShopTile key={potion.id} potion={potion} addToInventory={addToInventory}>
       //   <h4 className="potion-header">{potion.name}</h4>
       // </ShopTile>
-      <PotionTile key={potion.id} potion={potion} buySell={addToInventory}>
+      <PotionTile key={potion.id} potion={potion} buySell={addToInventory} className="card">
          <h4 className="potion-header">{potion.name}</h4>
       </PotionTile>
     );

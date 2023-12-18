@@ -13,7 +13,7 @@ function Inventory({ inventory, potions, sell, shake, stopShake, gold }) {
       //     {potion.name} x {item.amount}
       //   </h4>
       // </InventoryTile>
-      <PotionTile key={potion.id} potion={potion} buySell={sell}>
+      <PotionTile key={potion.id} potion={potion} buySell={sell} className="Inventory-card">
         <h4>
           {potion.name} x {item.amount}
         </h4>
